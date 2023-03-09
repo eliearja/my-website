@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import About from './pages/About/About';
 import Courses from './pages/Courses/Courses';
 import Experience from './pages/Experience/Experience';
@@ -12,7 +12,7 @@ import Skills from './pages/Skills/Skills';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route 
           path="/my-website"
@@ -35,7 +35,7 @@ root.render(
           element={ <Skills /> }
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
