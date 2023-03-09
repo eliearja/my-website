@@ -17,8 +17,8 @@ function App() {
       <div className='GridContainer'>
         <div className='Grid'>
         {sections.map((section) => (
-          <Link className='Item' to={section.path}>
-            <div key={section.id}>
+          <Link className='Item' to={section.path} key={section.id}>
+            <div>
               <h2 className='Title'>{section.title}</h2>
               <strong className='Description'>{section.description}</strong>
             </div>
