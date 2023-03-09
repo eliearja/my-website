@@ -27,7 +27,7 @@
   height: 90%;
   width: 75%;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1350px) {
@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 650px) {
   .Grid {
-    grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
   }
 }
 
