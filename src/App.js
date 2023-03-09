@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 function App() {
   const sections = [
     {id: 1, title: "About", path: "/my-website/about", description: "A section to get to know me."},
-    {id: 2, title: "Work Experience", path: "/my-website/about", description: "A section highlighting my work experience."},
-    {id: 3, title: "Skills", path: "/my-website/about", description: "A section showcasing my skills."},
-    {id: 4, title: "Coursework", path: "/my-website/about", description: "A section presenting the courses I have taken."}
+    {id: 2, title: "Work Experience", path: "/my-website/experience", description: "A section highlighting my work experience."},
+    {id: 3, title: "Skills", path: "/my-website/skills", description: "A section showcasing my skills."},
+    {id: 4, title: "Coursework", path: "/my-website/courses", description: "A section presenting the courses I have taken."}
   ];
 
   return (
