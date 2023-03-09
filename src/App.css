@@ -43,7 +43,7 @@
 
 .Item {
   border-radius: 50px;
-  background-color: #770000;
+  background-color: #990000;
   opacity: 0.8;
   display: flex;
   padding: 0% 5% 5%;
@@ -54,7 +54,7 @@
 }
 
 .Item:hover {
-  background-color: #770000;
+  background-color: #AA0000;
   color: #FFFFFF;
   opacity: 1;
   transition: 0.3s ease-in;
