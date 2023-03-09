@@ -15,23 +15,23 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route 
-          path="/" 
+          path="/my-website"
           element={ <App /> }
         />
         <Route 
-          path="/about"
+          path="/my-website/about"
           element={ <About /> }
         />
         <Route 
-          path="/courses"
+          path="/my-website/courses"
           element={ <Courses /> }
         />
         <Route
-          path="/experience"
+          path="/my-website/experience"
           element={ <Experience /> }
         />
         <Route 
-          path="/skills"
+          path="/my-website/skills"
           element={ <Skills /> }
         />
       </Routes>
